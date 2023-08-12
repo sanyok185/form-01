@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230812094719">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="form-contact">
+			<div class="form-contact__container">
+				<form data-dev action="#" id="form-contact" class="form-contact__body">
+					<div class="form-contact__head">
+						<div class="form-contact__label">
+							Contact us
+						</div>
+						<h1 class="form-contact__title">
+							<b>to Meet your</b> virtual assistant
+						</h1>
+					</div>
+					<div class="form-contact__items">
+						<div class="form-contact__item">
+							<input data-required type="text" name="firstName" data-error="Please enter your name" class="form-contact__input input">
+							<div class="form-contact__placeholder">
+								First Name <span>*</span>
+							</div>
+						</div>
+						<div class="form-contact__item">
+							<input data-required type="text" name="surName" data-error="Please enter your surname" class="form-contact__input input">
+							<div class="form-contact__placeholder">
+								Surname <span>*</span>
+							</div>
+						</div>
+						<div class="form-contact__item">
+							<input data-required type="text" name="company" data-error="Please enter your company" class="form-contact__input input">
+							<div class="form-contact__placeholder">
+								Company <span>*</span>
+							</div>
+						</div>
+						<div class="form-contact__item">
+							<input data-required type="email" name="mail" data-error="Please enter your Email" class="form-contact__input input">
+							<div class="form-contact__placeholder">
+								Email <span>*</span>
+							</div>
+						</div>
+						<div class="form-contact__item">
+							<input data-required type="tel" name="phone" data-error="Please enter your phone" class="form-contact__input input">
+							<div class="form-contact__placeholder">
+								Phone <span>*</span>
+							</div>
+						</div>
+						<select name="service" class="form-contact__select select">
+							<option value="" selected class="select__option">Select Service</option>
+							<option value="2" class="select__option">Service №1</option>
+							<option value="3" class="select__option">Service №2</option>
+							<option value="4" class="select__option">Service №3</option>
+						</select>
+						<div class="form-contact__item form-contact__item_comment">
+							<textarea data-autoheight autocomplete="off" name="comment" placeholder="Comment" class="form-contact__input input"></textarea>
+						</div>
+						<div class="form-contact__checkbox checkbox">
+							<input data-required id="formAgreement" class="checkbox__input" type="checkbox" name="agreement" data-error="Please agree to our policy">
+							<label for="formAgreement" class="checkbox__label"><span class="checkbox__text">I agree that my submitted data is being collected and stored.</span></label>
+						</div>
+					</div>
+					<button type="submit" class="form-contact__button">Submit <span>&#128073</span></button>
+				</form>
+				<div class="form-contact__image">
+					<picture><source srcset="img/form-contact/form-girl.webp" type="image/webp"><img src="img/form-contact/form-girl.png" alt="Image"></picture>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230812094719"></script>
+</body>
+
+</html>
